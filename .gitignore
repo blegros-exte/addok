@@ -28,3 +28,4 @@ local*.py
 *.tar.bz2
 .pytest_cache/
 venv
+.idea
