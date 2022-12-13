@@ -94,7 +94,7 @@ setup(
     ext_modules=ext_modules,
     entry_points={
         'console_scripts': ['addok=addok.bin:main'],
-        'pytest11': ['addok=addok.pytest'],
+        'pytest11': ['addok=addok.pytest_config'],
     },
     cmdclass=cmdclass,
 )

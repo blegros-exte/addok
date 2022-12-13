@@ -29,3 +29,5 @@ local*.py
 .pytest_cache/
 venv
 .idea
+*.c
+*.so

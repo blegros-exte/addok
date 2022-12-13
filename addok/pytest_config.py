@@ -147,7 +147,7 @@ class MonkeyPatchWrapper(object):
         self.monkeypatch.delattr(self.wrapped_object, attr)
 
 
-@pytest.fixture()
+@pytest.fixture
 def config(request, monkeypatch):
     from addok.config import config as addok_config
 
