@@ -27,6 +27,7 @@ def pytest_configure():
     import logging
 
     logging.basicConfig(level=logging.DEBUG)
+    addok_config.REDIS["host"] = "redis"
     addok_config.REDIS["indexes"]["db"] = 14
     addok_config.REDIS["documents"]["db"] = 15
     addok_config.load()
